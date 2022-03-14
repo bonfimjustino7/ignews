@@ -1,21 +1,38 @@
 .subscribeButton {
-    width: 260px;
-    height: 4rem;
-    border: 0;
-    border-radius: 2rem;
-    background: var(--yellow-500);
-    color: var(--gray-900);
-    font-size: 1.25rem;
-    font-weight: bold;
-    
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 260px;
+  height: 4rem;
+  border: 0;
+  border-radius: 2rem;
+  background: var(--yellow-500);
+  color: var(--gray-900);
+  font-size: 1.25rem;
+  font-weight: bold;
 
-    transition: filter .2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    &:hover {
-        filter: brightness(0.8);
-    }
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+  &:disabled {
+    cursor: auto;
+    filter: brightness(0.8);
+  }
+}
+
+svg.animation {
+  margin-right: 10px;
+  animation: spin infinite 0.4s linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
