@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="ignews" title="ignews" src="./.github/home.ignews.png" width="100%" />
+  <img alt="ignews" title="ignews" src="./.github/home-ignews.png" width="100%" />
 </p>
 
 ## 🚀 Tecnologias e Bibliotecas
