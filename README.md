@@ -16,7 +16,7 @@ Projeto desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O ig.news é um blog para listagem de posts. Foi desenvolvido durante as aulas do Chapter III da trilha de ReactJS do Bootcamp Ignite da Rocketseat, e os testes unitários feitos foram desenvolvidos posteriormente durante as aulas do Chapter V, e nela é possível fazer login com conta do GitHub e pagar uma inscrição mensal para visualizar os posts completos ou não pagar e visualizar somente alguns parágrafos iniciais.
+O ignews é um blog para listagens de posts consumidos por assinantes. Foi desenvolvido utilizando NextJs, na arquitetura Jamstack, onde foi utilizado vários serviços de consumo de dados como, CMS, Api de pagamentos e banco não relacional e também integração com Github para login social.
 
 ## 🔖 Layout
 
